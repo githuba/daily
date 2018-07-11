@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-11 01:16:22
+// Update: 2018-07-12 01:17:13
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -2944,6 +2944,7 @@ var china_domains = {
 "40407.com":1,
 "404600.com":1,
 "404le.com":1,
+"404mzk.com/218.2.135.1
 "404wan.com":1,
 "405400.com":1,
 "4056789.com":1,
@@ -6218,11 +6219,6 @@ var china_domains = {
 "9zjob.com":1,
 "9zonline.com":1,
 "9zx.com":1,
-"SkYTS.NET":1,
-"SkYTs.NET":1,
-"SkYTs.NeT":1,
-"SkYtS.Net":1,
-"Skyts.nEt":1,
 "TZ089.com":1,
 "a-cifi.org":1,
 "a-eltd.com":1,
@@ -6329,6 +6325,7 @@ var china_domains = {
 "accessibilityunion.org":1,
 "accgame.com":1,
 "account.samsung.com":1,
+"accspeed.com/218.2.135.1
 "acde.net":1,
 "acechuang.com":1,
 "acehat.com":1,
@@ -8226,6 +8223,7 @@ var china_domains = {
 "bazhan.com":1,
 "bazhibo.com":1,
 "bazhou.com":1,
+"bazhuay.com/218.2.135.1
 "bazhuayu.cc":1,
 "bazhuayu.com":1,
 "bazi5.com":1,
@@ -8614,6 +8612,7 @@ var china_domains = {
 "big-bit.com":1,
 "big-cup.tv":1,
 "big-shanghai.com":1,
+"bigaka.com/218.2.135.1
 "bigan.net":1,
 "bigao123.com":1,
 "bigben15.com":1,
@@ -9334,6 +9333,7 @@ var china_domains = {
 "btkitty.org":1,
 "btlyjzzs.com":1,
 "btmao.com":1,
+"btmcfund.com":1,
 "btmeiju.com":1,
 "btmil.com":1,
 "btnotes.com":1,
@@ -9474,6 +9474,7 @@ var china_domains = {
 "bwie.net":1,
 "bwptl.com":1,
 "bwpx.com":1,
+"bwzybf.com":1,
 "bx1k.com":1,
 "bx24k.com":1,
 "bx58.com":1,
@@ -10611,6 +10612,7 @@ var china_domains = {
 "chengzivr.com":1,
 "chenhr.com":1,
 "chenhui.org":1,
+"chenjiandongx.com/218.2.135.1
 "chenjiehua.me":1,
 "chenjunlu.com":1,
 "chenlb.com":1,
@@ -12335,6 +12337,7 @@ var china_domains = {
 "configure.ap.dell.com":1,
 "congrongfund.com":1,
 "congxun.net":1,
+"congyicn.com":1,
 "congzao.com":1,
 "conohavps.com":1,
 "conpak.com.hk":1,
@@ -19979,6 +19982,7 @@ var china_domains = {
 "huayinziben.com":1,
 "huayucet.com":1,
 "huayuejob.com":1,
+"huayuidc.com":1,
 "huayutuan.com":1,
 "huazhongcar.com":1,
 "huazhu.com":1,
@@ -20737,6 +20741,7 @@ var china_domains = {
 "iermu.com":1,
 "iesdouyin.com":1,
 "ieshu.com":1,
+"iessay100.com/218.2.135.1
 "iewie.org":1,
 "ieyou.xyz":1,
 "iezuo.com":1,
@@ -21558,6 +21563,7 @@ var china_domains = {
 "itouzi.com":1,
 "itppi.org":1,
 "itpub.net":1,
+"itrace.cc/218.2.135.1
 "itranca.com":1,
 "itread01.com":1,
 "itrip.com":1,
@@ -23116,6 +23122,7 @@ var china_domains = {
 "justdo.tv":1,
 "justep.com":1,
 "justering.com":1,
+"justjavac.com/218.2.135.1
 "justzht.com":1,
 "jutean.com":1,
 "juto8.com":1,
@@ -25985,6 +25992,7 @@ var china_domains = {
 "maibasa.com":1,
 "maichawang.com":1,
 "maichuang.net":1,
+"maicong.me/218.2.135.1
 "maidangao.com":1,
 "maidi.me":1,
 "maidige.com":1,
@@ -29002,6 +29010,7 @@ var china_domains = {
 "papertime.cc":1,
 "paperyy.com":1,
 "papocket.com":1,
+"paranoth.me/218.2.135.1
 "paratera.com":1,
 "paris-bride.com":1,
 "parischerie.com":1,
@@ -29120,6 +29129,8 @@ var china_domains = {
 "pe168.com":1,
 "pe62.com":1,
 "pea3nut.com":1,
+"pea3nut.info/218.2.135.1
+"pea3nut.org/218.2.135.1
 "peaceticket.com":1,
 "pearlinpalm.com":1,
 "pearvideo.com":1,
@@ -30219,6 +30230,7 @@ var china_domains = {
 "qinzhe.com":1,
 "qionghaif.com":1,
 "qionghaigf.com":1,
+"qipacao.com":1,
 "qipaifan.com":1,
 "qipanyun.com":1,
 "qipaoxian.com":1,
@@ -31201,6 +31213,7 @@ var china_domains = {
 "ronghuisign.com":1,
 "rongjinsuo.com":1,
 "rongmayisheng.com":1,
+"rongroad.com":1,
 "rongshu.com":1,
 "rongshuxia.com":1,
 "rongtongzc.com":1,
@@ -31368,6 +31381,7 @@ var china_domains = {
 "rwrace.com":1,
 "rwske.com":1,
 "rwtext.com":1,
+"rxblog.xyz/218.2.135.1
 "rxdsj.com":1,
 "rxgl.net":1,
 "rxhui.com":1,
@@ -31422,7 +31436,6 @@ var china_domains = {
 "s8youni.com":1,
 "s936.com":1,
 "s9yun.com":1,
-"sKyts.nEt":1,
 "sa-log.com":1,
 "sa16.com":1,
 "sa20.com":1,
@@ -31780,6 +31793,7 @@ var china_domains = {
 "sends.cc":1,
 "senguo.cc":1,
 "seniverse.com":1,
+"senra.me/218.2.135.1
 "senseluxury.com":1,
 "sensetime.com":1,
 "senszx.com":1,
@@ -32829,7 +32843,6 @@ var china_domains = {
 "skyrivers.org":1,
 "skysea.com":1,
 "skysrt.com":1,
-"skyts.Net":1,
 "skyts.net":1,
 "skyunion.com":1,
 "skywhat.com":1,
@@ -34060,6 +34073,7 @@ var china_domains = {
 "tancdn.com":1,
 "tandachu.com":1,
 "tanfujun.com":1,
+"tang.su/218.2.135.1
 "tangcha.tc":1,
 "tangdoou.com":1,
 "tangdou.com":1,
@@ -36395,6 +36409,7 @@ var china_domains = {
 "vtepai.net":1,
 "vtibet.com":1,
 "vttv.cc":1,
+"vue-js.com/218.2.135.1
 "vulbox.com":1,
 "vultrvps.com":1,
 "vunion.net":1,
@@ -39548,6 +39563,7 @@ var china_domains = {
 "xycaogen.com":1,
 "xycdn.com":1,
 "xychen.me":1,
+"xycloud.com/218.2.135.1
 "xycq.net":1,
 "xydfn.com":1,
 "xydhl.com":1,
