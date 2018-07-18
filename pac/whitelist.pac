@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-18 21:49:08
+// Update: 2018-07-18 21:57:45
 //
 
 var proxy = "SOCKS5 127.0.0.1:1080;";
@@ -43119,7 +43119,53 @@ var china_domains = {
 "zzzmode.com":1,
 "zzzsxx.com":1,
 "zzzyb.com":1,
-"zzzyit.com":1
+"zzzyit.com":1,
+"adcdownload.apple.com":1,
+"appldnld.apple.com":1,
+"cdn-cn1.apple-mapkit.com":1,
+"cdn-cn2.apple-mapkit.com":1,
+"cdn-cn3.apple-mapkit.com":1,
+"cdn-cn4.apple-mapkit.com":1,
+"cdn.apple-mapkit.com":1,
+"cdn1.apple-mapkit.com":1,
+"cdn2.apple-mapkit.com":1,
+"cdn3.apple-mapkit.com":1,
+"cdn4.apple-mapkit.com":1,
+"cds.apple.com":1,
+"cl1.apple.com":1,
+"cl2.apple.com.edgekey.net.globalredir.akadns.net":1,
+"cl2.apple.com.edgekey.net":1,
+"cl2.apple.com":1,
+"cl3.apple.com":1,
+"cl4.apple.com":1,
+"cl5.apple.com":1,
+"gsp11-cn.ls.apple.com":1,
+"gsp12-cn.ls.apple.com":1,
+"gsp13-cn.ls.apple.com":1,
+"gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net":1,
+"gsp4-cn.ls.apple.com.edgekey.net":1,
+"gsp4-cn.ls.apple.com":1,
+"gsp5-cn.ls.apple.com":1,
+"gspe19-cn.ls-apple.com.akadns.net":1,
+"gspe19-cn.ls.apple.com":1,
+"gspe21.ls.apple.com":1,
+"gspe21-ssl.ls.apple.com":1,
+"gspe35-ssl.ls.apple.com":1,
+"icloud.cdn-apple.com":1,
+"images.apple.com":1,
+"itunes-apple.com.akadns.net":1,
+"itunes.apple.com":1,
+"itunesconnect.apple.com":1,
+"mesu.apple.com":1,
+"mesu-china.apple.com.akadns.net":1,
+"phobos-apple.com.akadns.net":1,
+"phobos.apple.com":1,
+"store.apple.com":1,
+"store.storeimages.cdn-apple.com":1,
+"support.apple.com":1,
+"swcdn.apple.com":1,
+"swdist.apple.com":1,
+"www.apple.com":1
 };
 
 var subnet_ips = [
