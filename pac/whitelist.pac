@@ -1,11 +1,11 @@
 //
-// Update: 2018-07-19 01:20:00
+// Update: 2018-07-19 15:39:33
 //
 
-var proxy = "SOCKS5 127.0.0.1:1080;";
-var direct = "DIRECT;";
+const proxy = "SOCKS5 127.0.0.1:1080;";
+const direct = "DIRECT;";
 
-var china_domains = {
+const china_domains = {
 "0-6.com":1,
 "0-gold.net":1,
 "00.net":1,
@@ -8745,6 +8745,7 @@ var china_domains = {
 "biqi.me":1,
 "biqing.me":1,
 "biquan.be":1,
+"biquan.link":1,
 "biqudu.com":1,
 "biquge.cc":1,
 "biquge.com.tw":1,
@@ -9559,6 +9560,7 @@ var china_domains = {
 "byqok.com":1,
 "byr.cc":1,
 "byread.com":1,
+"bysb.net":1,
 "byshr.com":1,
 "bysocket.com":1,
 "byt2011.com":1,
@@ -10850,6 +10852,7 @@ var china_domains = {
 "chinaavl.com":1,
 "chinab4c.com":1,
 "chinabaike.com":1,
+"chinabaiker.com":1,
 "chinabathware.com":1,
 "chinabbtravel.com":1,
 "chinabbz.com":1,
@@ -15799,6 +15802,7 @@ var china_domains = {
 "eyizhang.com":1,
 "eyou.com":1,
 "eyoudi.com":1,
+"eyrefree.org":1,
 "eyuanzhou.com":1,
 "eyugame.com":1,
 "eyunidc.com":1,
@@ -17476,6 +17480,7 @@ var china_domains = {
 "ghost580.com":1,
 "ghost68.com":1,
 "ghostchina.com":1,
+"ghostsf.com":1,
 "ghostunix.org":1,
 "ghostxx.com":1,
 "ghtt.net":1,
@@ -20618,6 +20623,7 @@ var china_domains = {
 "icdn2.com":1,
 "icdream.com":1,
 "iceinto.com":1,
+"icewing.cc":1,
 "icewingcc.com":1,
 "iceyer.net":1,
 "icfinkl.com":1,
@@ -21845,6 +21851,7 @@ var china_domains = {
 "izacholsm.com":1,
 "izamay.com":1,
 "izazamall.com":1,
+"izgq.net":1,
 "izhangchu.com":1,
 "izhaowo.com":1,
 "izhenxin.com":1,
@@ -27200,6 +27207,7 @@ var china_domains = {
 "moeapk.com":1,
 "moecao.com":1,
 "moecdn.org":1,
+"moefactory.com":1,
 "moefantasy.com":1,
 "moefont.com":1,
 "moefou.org":1,
@@ -27307,6 +27315,7 @@ var china_domains = {
 "mooninbox.com":1,
 "mooninsky.net":1,
 "moonsun.cc":1,
+"moooc.cc":1,
 "moootooo.com":1,
 "moorburn.com":1,
 "moore.ren":1,
@@ -28392,6 +28401,7 @@ var china_domains = {
 "nowodds.com":1,
 "nowre.com":1,
 "nowscore.com":1,
+"noxxxx.com":1,
 "noyishu.org":1,
 "npanel.net":1,
 "npcka.com":1,
@@ -31865,6 +31875,7 @@ var china_domains = {
 "se7enzone.com":1,
 "sea-gullmall.com":1,
 "sea789.com":1,
+"seabye.com":1,
 "seacha.com":1,
 "seamanhome.com":1,
 "seanlook.com":1,
@@ -31987,6 +31998,7 @@ var china_domains = {
 "sfidcdns.com":1,
 "sfile2012.com":1,
 "sflyme.com":1,
+"sforest.in":1,
 "sfsft.com":1,
 "sfsky.net":1,
 "sfyb.com":1,
@@ -33741,6 +33753,7 @@ var china_domains = {
 "sunsky-online.com":1,
 "sunupcg.com":1,
 "sunweiwei.com":1,
+"sunwinism.com":1,
 "sunxin.org":1,
 "sunyea.com":1,
 "sunyingchao.com":1,
@@ -35123,6 +35136,7 @@ var china_domains = {
 "touclick.com":1,
 "toughcoder.net":1,
 "touhou.cc":1,
+"touko.moe":1,
 "toukus.com":1,
 "toumiao.com":1,
 "toumiao.net":1,
@@ -35536,6 +35550,7 @@ var china_domains = {
 "tv189.com":1,
 "tv1926.com":1,
 "tv2stb.com":1,
+"tv432.com":1,
 "tvandnet.com":1,
 "tvapk.com":1,
 "tvapk.net":1,
@@ -43168,27 +43183,27 @@ var china_domains = {
 "www.apple.com":1
 };
 
-var subnet_ips = [
-0,1,                     // 0.0.0.0
-167772160,184549376,     // 10.0.0.0/8
-1681915904,1686110208,   // 100.64.0.0/10
-2130706432,2147483648,   // 127.0.0.0/8
--1442971648,-1442906112, // 169.254.0.0/16
--1408237568,-1407188992, // 172.16.0.0/12
--1073741824,-1073741816, // 192.0.0.0/29
--1073741312,-1073741056, // 192.0.2.0/24
--1067949312,-1067949056, // 192.88.99.0/24
--1062731776,-1062666240, // 192.168.0.0/16
--971898880,-971767808,   // 198.18.0.0/15
--969710592,-969710336,   // 198.51.100.0/24
--889163520,-889163264,   // 203.0.113.0/24
--536870912,0             // 224.0.0.0/3
-]
+const subnet_ips = [
+    0, 1,                     // 0.0.0.0
+    167772160, 184549376,     // 10.0.0.0/8
+    1681915904, 1686110208,   // 100.64.0.0/10
+    2130706432, 2147483648,   // 127.0.0.0/8
+    -1442971648, -1442906112, // 169.254.0.0/16
+    -1408237568, -1407188992, // 172.16.0.0/12
+    -1073741824, -1073741816, // 192.0.0.0/29
+    -1073741312, -1073741056, // 192.0.2.0/24
+    -1067949312, -1067949056, // 192.88.99.0/24
+    -1062731776, -1062666240, // 192.168.0.0/16
+    -971898880, -971767808,   // 198.18.0.0/15
+    -969710592, -969710336,   // 198.51.100.0/24
+    -889163520, -889163264,   // 203.0.113.0/24
+    -536870912, 0             // 224.0.0.0/3
+];
 
-var hasOwnProperty = Object.hasOwnProperty;
+const hasOwnProperty = Object.hasOwnProperty;
 
 function is_ipv4(host) {
-    var regex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/g;
+    const regex = /^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(:([0-9]|[1-9]\d|[1-9]\d{2}|[1-9]\d{3}|[1-5]\d{4}|6[0-4]\d{3}|65[0-4]\d{2}|655[0-2]\d|6553[0-5]))?$/g;
     if (regex.test(host)) {
         return true;
     }
@@ -43198,11 +43213,11 @@ function convert_address(ipchars) {
     if (ipchars.indexOf(':') !== -1) {
         ipchars = ipchars.split(':')[0];
     }
-    var bytes = ipchars.split('.');
-    var result = ((bytes[0] & 0xff) << 24) |
-                 ((bytes[1] & 0xff) << 16) |
-                 ((bytes[2] & 0xff) <<  8) |
-                 (bytes[3] & 0xff);
+    const bytes = ipchars.split('.');
+    const result = ((bytes[0] & 0xff) << 24) |
+        ((bytes[1] & 0xff) << 16) |
+        ((bytes[2] & 0xff) << 8) |
+        (bytes[3] & 0xff);
     return result;
 }
 
@@ -43211,16 +43226,12 @@ function is_china_domain(domain) {
 }
 
 function match_domains(domain, domains) {
-    var suffix;
-    var pos = domain.lastIndexOf('.');
+    let suffix;
+    let pos = domain.lastIndexOf('.');
     pos = domain.lastIndexOf('.', pos - 1);
-    while(1) {
+    while (1) {
         if (pos <= 0) {
-            if (hasOwnProperty.call(domains, domain)) {
-                return true;
-            } else {
-                return false;
-            }
+            return hasOwnProperty.call(domains, domain);
         }
         suffix = domain.substring(pos + 1);
         if (hasOwnProperty.call(domains, suffix)) {
@@ -43231,13 +43242,16 @@ function match_domains(domain, domains) {
 }
 
 function match_subnet_ips(ip, ips) {
-    for (var i = 0; i < 28; i += 2) {
+    for (let i = 0; i < 28; i += 2) {
         if (ips[i] <= ip && ip < ips[i + 1]) {
             return true;
         }
     }
 }
 
+/**
+ * @return {string} Connect via direct or proxy.
+ */
 function FindProxyForURL(url, host) {
     if (typeof host === 'undefined'
         || isPlainHostName(host) === true
@@ -43255,7 +43269,7 @@ function FindProxyForURL(url, host) {
     }
 
     if (is_ipv4(host) === true) {
-        var ip = convert_address(host);
+        const ip = convert_address(host);
         if (match_subnet_ips(ip, subnet_ips) === true) {
             return direct;
         }
