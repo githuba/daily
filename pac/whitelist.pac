@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-24 18:11:27
+// Update: 2018-07-24 20:01:58
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -88,6 +88,7 @@ const china_domains = {
     "0123366.com": 1,
     "0123401234.com": 1,
     "012logo.com": 1,
+    "0133hao.net": 1,
     "013hg.com": 1,
     "014.cc": 1,
     "014bjldc.com": 1,
@@ -634,6 +635,7 @@ const china_domains = {
     "0x0.biz": 1,
     "0x0d.im": 1,
     "0x7.me": 1,
+    "0x9.me": 1,
     "0xaa55.com": 1,
     "0xffffff.org": 1,
     "0xsky.com": 1,
@@ -6663,6 +6665,7 @@ const china_domains = {
     "ahtvfans.com": 1,
     "ahycwj.com": 1,
     "ahyczd.com": 1,
+    "ahyessoft.com": 1,
     "ahyouth.com": 1,
     "ahyx.cc": 1,
     "ahyx114.com": 1,
@@ -7249,6 +7252,7 @@ const china_domains = {
     "antrol.io": 1,
     "antsdaq.com": 1,
     "antsoul.com": 1,
+    "antuan365.com": 1,
     "antuan532.com": 1,
     "antuni.com": 1,
     "antutu.com": 1,
@@ -26510,6 +26514,7 @@ const china_domains = {
     "mcsg.cc": 1,
     "mcsky.net": 1,
     "mct01.com": 1,
+    "mcufan.com": 1,
     "mcuol.com": 1,
     "mcuzone.com": 1,
     "mcwshop.com": 1,
@@ -37537,6 +37542,7 @@ const china_domains = {
     "westleadfund.com": 1,
     "westsecu.com": 1,
     "wetherm.com": 1,
+    "weti.me": 1,
     "wetogame.com": 1,
     "wetu.me": 1,
     "wewen.io": 1,
