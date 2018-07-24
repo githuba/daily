@@ -1,9 +1,11 @@
 //
-// Update: 2018-07-24 18:04:57
+// Update: 2018-07-24 18:11:28
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
 const direct = "DIRECT;";
+
+const hasOwnProperty = Object.hasOwnProperty;
 
 const gfwlist_domains = {
     "030buy.com": 1,
@@ -5524,8 +5526,6 @@ const gfwlist_domains = {
     "zzcartoon.com": 1,
     "zzux.com": 1
 };
-
-const hasOwnProperty = Object.hasOwnProperty;
 
 function is_china_domain(domain) {
     return !!dnsDomainIs(domain, ".cn");
