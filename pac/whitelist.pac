@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-24 20:09:20
+// Update: 2018-07-25 01:23:21
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -534,6 +534,7 @@ const china_domains = {
     "0791jxhw.com": 1,
     "0791look.com": 1,
     "0791quanquan.com": 1,
+    "0792u.com": 1,
     "0797114.net": 1,
     "0797rs.com": 1,
     "0797tao.com": 1,
@@ -3893,6 +3894,7 @@ const china_domains = {
     "5395.com": 1,
     "5399.com": 1,
     "53chewu.com": 1,
+    "53info.com": 1,
     "53k.cc": 1,
     "53kf.com": 1,
     "53nic.com": 1,
@@ -7455,6 +7457,7 @@ const china_domains = {
     "appletdev.com": 1,
     "appletuan.com": 1,
     "applex.net": 1,
+    "applicationloader.net": 1,
     "applinzi.com": 1,
     "applong.com": 1,
     "applus.cc": 1,
@@ -14732,6 +14735,7 @@ const china_domains = {
     "duiliandaquan.net": 1,
     "duimi.me": 1,
     "duitang.com": 1,
+    "duitianhe.com": 1,
     "duixuetang.com": 1,
     "dujiaoshou.org": 1,
     "dujiza.com": 1,
@@ -17289,6 +17293,7 @@ const china_domains = {
     "gbtranswins.com": 1,
     "gbtsky.com": 1,
     "gc-repair.com": 1,
+    "gc-zb.com": 1,
     "gc1616.com": 1,
     "gc168.net": 1,
     "gc5.cc": 1,
@@ -26016,6 +26021,7 @@ const china_domains = {
     "lvyetong.com": 1,
     "lvyou114.com": 1,
     "lvyou521.com": 1,
+    "lvyougl.com": 1,
     "lvyouw.net": 1,
     "lweasy.com": 1,
     "lwedu.com": 1,
@@ -26809,6 +26815,7 @@ const china_domains = {
     "mfjmedia.com": 1,
     "mfpad.com": 1,
     "mfqqx.com": 1,
+    "mfqyw.com": 1,
     "mftp.info": 1,
     "mfunz.com": 1,
     "mfwu.net": 1,
@@ -29295,6 +29302,7 @@ const china_domains = {
     "pc841.com": 1,
     "pcb3.com": 1,
     "pcb818.com": 1,
+    "pcbbar.com": 1,
     "pcben.com": 1,
     "pcbeta.com": 1,
     "pcbookcn.com": 1,
