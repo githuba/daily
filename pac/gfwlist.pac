@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-25 01:23:22
+// Update: 2018-07-25 14:54:52
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -226,6 +226,7 @@ const gfwlist_domains = {
     "alwaysdata.net": 1,
     "alwaysvpn.com": 1,
     "am730.com.hk": 1,
+    "amazon.co.jp": 1,
     "amazon.com": 1,
     "ameblo.jp": 1,
     "americangreencard.com": 1,
@@ -3297,13 +3298,11 @@ const gfwlist_domains = {
     "newnews.ca": 1,
     "news100.com.tw": 1,
     "newsancai.com": 1,
-    "news.bbc.co.uk": 1,
     "newschinacomment.org": 1,
     "newscn.org": 1,
     "news.cnyes.com": 1,
     "newsdetox.ca": 1,
     "newsdh.com": 1,
-    "newsforums.bbc.co.uk": 1,
     "news.hk.msn.com": 1,
     "news.hkpeanut.com": 1,
     "news.msn.com.tw": 1,
@@ -3374,6 +3373,7 @@ const gfwlist_domains = {
     "notify.dropboxapi.com": 1,
     "nottinghampost.com": 1,
     "novelasia.com": 1,
+    "now.com": 1,
     "now.im": 1,
     "nownews.com": 1,
     "nowtorrents.com": 1,
@@ -3657,6 +3657,7 @@ const gfwlist_domains = {
     "plays.com.tw": 1,
     "plm.org.hk": 1,
     "plunder.com": 1,
+    "plurk.com": 1,
     "plus28.com": 1,
     "plusbb.com": 1,
     "pmatehunter.com": 1,
@@ -3668,6 +3669,7 @@ const gfwlist_domains = {
     "pokerstars.net": 1,
     "politicalchina.org": 1,
     "politicalconsultation.org": 1,
+    "politiscales.net": 1,
     "poloniex.com": 1,
     "polymerhk.com": 1,
     "polymer-project.org": 1,
@@ -4017,6 +4019,7 @@ const gfwlist_domains = {
     "shadowsky.xyz": 1,
     "shadowsocks9.com": 1,
     "shadowsocks.asia": 1,
+    "shadowsocks.be": 1,
     "shadowsocks.com": 1,
     "shadowsocks.com.hk": 1,
     "shadowsocks.org": 1,
