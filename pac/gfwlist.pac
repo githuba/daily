@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-26 01:24:23
+// Update: 2018-07-26 11:52:13
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -413,6 +413,7 @@ const gfwlist_domains = {
     "bbc.co.uk": 1,
     "bb-chat.tv": 1,
     "bbchat.tv": 1,
+    "bbci.co.uk": 1,
     "bbc.in": 1,
     "bbg.gov": 1,
     "bbkz.com": 1,
