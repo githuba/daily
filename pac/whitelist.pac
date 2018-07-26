@@ -1,5 +1,5 @@
 //
-// Update: 2018-07-26 20:51:57
+// Update: 2018-07-27 01:24:54
 //
 
 const proxy = "SOCKS5 127.0.0.1:1080;";
@@ -3792,6 +3792,7 @@ const china_domains = {
     "52laodong.com": 1,
     "52liaoshen.com": 1,
     "52life.cc": 1,
+    "52lion.com": 1,
     "52lishi.com": 1,
     "52luckystar.com": 1,
     "52luw.net": 1,
@@ -6623,6 +6624,7 @@ const china_domains = {
     "ahcnb.com": 1,
     "aheading.com": 1,
     "ahfdcb.com": 1,
+    "ahfdu.com": 1,
     "ahgame.com": 1,
     "ahglj.com": 1,
     "ahguangyuan.com": 1,
@@ -6912,6 +6914,7 @@ const china_domains = {
     "ajaxjs.com": 1,
     "ajax.loli.net": 1,
     "ajaxstu.com": 1,
+    "ajebw.com": 1,
     "ajian123.com": 1,
     "ajiang.net": 1,
     "ajinga.com": 1,
@@ -7987,6 +7990,7 @@ const china_domains = {
     "baihuakm.com": 1,
     "baihui.com": 1,
     "baihuoke.com": 1,
+    "baihuwang.com": 1,
     "baiila.com": 1,
     "baijiegroup.com": 1,
     "baijiexiu.com": 1,
@@ -23981,6 +23985,7 @@ const china_domains = {
     "kiwisec.com": 1,
     "kiyoha.com": 1,
     "kjcad.net": 1,
+    "kjcdn.com": 1,
     "kjcity.com": 1,
     "kjcxpp.com": 1,
     "kjduobao.com": 1,
@@ -34995,6 +35000,7 @@ const china_domains = {
     "tietie.la": 1,
     "tietuku.com": 1,
     "tieww.com": 1,
+    "tiexie0.wang": 1,
     "tiexing.net": 1,
     "tiexue.net": 1,
     "tieyou.com": 1,
@@ -37625,6 +37631,7 @@ const china_domains = {
     "weste.net": 1,
     "westleadfund.com": 1,
     "westsecu.com": 1,
+    "wesure100.com": 1,
     "wetherm.com": 1,
     "weti.me": 1,
     "we.tm": 1,
